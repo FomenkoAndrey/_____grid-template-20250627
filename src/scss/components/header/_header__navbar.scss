@@ -17,6 +17,7 @@
 
       display: none;
       overflow: hidden;
+
       text-align: right;
 
       @include box-shadow;
@@ -29,8 +30,11 @@
         right: -$gap;
         bottom: -$gap;
         left: -$gap;
+
         content: "";
+
         background-color: rgba($color-gray-dark, 0.25);
+
         backdrop-filter: blur(5px);
       }
     }
